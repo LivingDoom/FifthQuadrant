@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.afinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo_circle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Problem10"
+            android:label="Problem 10"
+            android:parentActivityName=".Menu"/>
+        <activity
+            android:name=".Problem9"
+            android:label="Problem 9"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem8"
+            android:label="Problem 8"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem7"
+            android:label="Problem 7"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem6"
+            android:label="Problem 6"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem5"
+            android:label="Problem 5"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem4"
+            android:label="Problem 4"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem3"
+            android:label="Problem 3"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Menu"
+            android:label="Select a Level"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Problem2"
+            android:label="Problem 2"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Problem1"
+            android:label="Problem 1"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".MainActivity"
+            android:label="The Fifth Quadrant">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

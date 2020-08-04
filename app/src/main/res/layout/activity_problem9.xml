@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/target1"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="56sp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/p9a"/>
+    <ImageView
+        android:id="@+id/target2"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="256sp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/p9b"/>
+    <ImageView
+        android:id="@+id/target3"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="56sp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/p9c"/>
+    <ImageView
+        android:id="@+id/target4"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="256sp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/p9d"/>
+    <ImageView
+        android:id="@+id/target5"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="156sp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/p9g"/>
+    <ImageView
+        android:id="@+id/target6"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="36sp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p9f"/>
+    <ImageView
+        android:id="@+id/target7"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="156sp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/p9e"/>
+    <ImageView
+        android:id="@+id/target8"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="276sp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p9h"/>
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p9"/>
+
+
+
+    <ImageView
+        android:id="@+id/key1"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/p9sel"/>
+    <ImageView
+        android:id="@+id/key2"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/p9sel" />
+    <ImageView
+        android:id="@+id/key3"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/p9sel" />
+    <ImageView
+        android:id="@+id/key4"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/p9sel" />
+
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:src="@drawable/completed"/>
+    <Button
+        android:layout_marginTop="425sp"
+        android:layout_marginLeft="0sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/next"
+        android:layout_height="75sp"
+        android:layout_width="150sp"
+        android:text="Back"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/target1"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="56sp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p4"/>
+    <ImageView
+        android:id="@+id/target2"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="256sp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p4"/>
+    <ImageView
+        android:id="@+id/target3"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="56sp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/p4"/>
+    <ImageView
+        android:id="@+id/target4"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="256sp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/p4"/>
+
+
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="56sp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/p4_14v"
+        android:alpha=".3"/>
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="256sp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/p4_14v"
+        android:alpha=".3"/>
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="156sp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/p4_14h"
+        android:alpha=".3"/>
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="156sp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/p4_14h"
+        android:alpha=".3"/>
+
+
+
+    <ImageView
+        android:id="@+id/key1"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="191dp"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/p4a"/>
+    <ImageView
+        android:id="@+id/key2"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="11sp"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/p4b" />
+    <ImageView
+        android:id="@+id/key3"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="101sp"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/p4c" />
+    <ImageView
+        android:id="@+id/key4"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="281sp"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/p4d" />
+
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:src="@drawable/completed"/>
+    <Button
+        android:layout_marginTop="425sp"
+        android:layout_marginLeft="0sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/next"
+        android:layout_height="75sp"
+        android:layout_width="150sp"
+        android:text="Back"
+        android:visibility="gone"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
